@@ -1,8 +1,9 @@
 {
-  "baseUrl": "http://localhost:3000",
-  "apiServer": "http://localhost:3333",
+  "baseUrl": "https://samuraibs-web-amanda.fly.dev",
+  "apiServer": "https://samuraibs-api-amanda.fly.dev",
   "viewportWidth": 1440,
   "viewportHeight": 900,
+  "defaultCommandTimeout": 30000,
   "dbConfig": {
     "host": "raja.db.elephantsql.com",
     "user": "yheaenmu",
