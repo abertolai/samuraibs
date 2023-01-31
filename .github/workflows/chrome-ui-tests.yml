@@ -22,7 +22,7 @@ jobs:
         site: https://samuraibs-api-amanda.fly.dev
 
     - name: 'UI Tests - Chrome'
-      uses: cypress-io/github-action@v5.x.x # use the explicit version number
+      uses: cypress-io/github-action@v2 # use the explicit version number
       with:
         # we have already installed all dependencies above
         install-command: yarn install
