@@ -3,7 +3,7 @@
   "apiServer": "https://samuraibs-api-amanda.fly.dev",
   "viewportWidth": 1440,
   "viewportHeight": 900,
-  "defaultCommandTimeout": 50000,
+  "defaultCommandTimeout": 80000,
   "dbConfig": {
     "host": "raja.db.elephantsql.com",
     "user": "yheaenmu",
