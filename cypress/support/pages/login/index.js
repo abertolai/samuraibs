@@ -19,7 +19,7 @@ class LoginPage {
   }
 
   submit() {
-    cy.contains(el.signIn).click();
+    cy.contains(el.signIn).click({ force: true });
   }
 }
 
