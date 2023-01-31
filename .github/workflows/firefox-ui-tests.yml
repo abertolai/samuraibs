@@ -8,7 +8,7 @@ on:
         default: cypress/integration/*
 
 jobs:
-  chrome-ui-tests:
+  firefox-ui-tests:
     runs-on: ubuntu-latest
     container:
       image: cypress/browsers:node14.17.6-chrome100-ff98

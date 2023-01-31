@@ -8,7 +8,7 @@ on:
         default: cypress/integration/*
 
 jobs:
-  chrome-ui-tests:
+  electron-ui-tests:
     runs-on: ubuntu-latest
     container: cypress/browsers:node14.17.6-chrome100-ff98
     strategy:
