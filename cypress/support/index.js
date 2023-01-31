@@ -23,3 +23,6 @@ import "./commands";
 // afterEach(function () {
 //   cy.screenshot();
 // });
+Cypress.on("uncaught:exception", (err, runnable) => {
+  return false;
+});

@@ -1,6 +1,5 @@
 import loginPage from "../support/pages/login";
 import dashPage from "../support/pages/dashboard";
-import login from "../support/pages/login";
 
 describe("login", function () {
   context("quando o usuário é muito bom", function () {
