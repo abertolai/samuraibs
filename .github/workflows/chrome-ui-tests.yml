@@ -25,7 +25,7 @@ jobs:
       uses: cypress-io/github-action@v2 # use the explicit version number
       with:
         # we have already installed all dependencies above
-        install-command: yarn install
+        install-command: yarn install --ignore-engines
         wait-on: 'https://samuraibs-web-amanda.fly.dev'
         wait-on-timeout: 120
         browser: chrome
